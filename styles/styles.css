@@ -282,3 +282,56 @@ body {
   cursor: pointer;
 }
 /* Newsletter Section Styles End Here */
+
+/* Footer Section Styles Start From Here  */
+footer {
+  background-color: #070211;
+  color: #fff;
+  padding: 120px 0;
+}
+footer p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+}
+footer span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.footer-first-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.footer-first-section .phone,
+.website {
+  display: flex;
+  align-items: center;
+}
+
+.footer-first-section img {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+}
+
+.footer-second-section {
+  margin: 48px auto;
+  text-align: center;
+}
+
+.footer-second-section img {
+  width: 64px;
+  height: 64px;
+  margin-right: 24px;
+}
+
+.footer-third-section {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+/* Footer Section Styles End Here  */
