@@ -15,7 +15,7 @@ body {
 .container {
   width: 83%;
   max-width: 1320px;
-  margin: 50px auto;
+  margin: 50px auto 0px;
 }
 /* Shared Styles End Here */
 
@@ -26,6 +26,7 @@ body {
   border-radius: 16px;
   background-repeat: no-repeat;
   padding: 177px 344px;
+  margin-bottom: 70px;
 }
 .banner * {
   color: #fff;
@@ -43,3 +44,34 @@ body {
   font-weight: 900;
 }
 /* Banner Section Styles End Here */
+
+/* Discount Section Start From Here */
+.discount * {
+  text-align: center;
+}
+.discount h1 {
+  color: #f00;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.discount h4 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.discount h2 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.discount .discount-img {
+  max-width: 802.9px;
+  margin: 0 auto;
+}
+/* Discount Section End Here */
