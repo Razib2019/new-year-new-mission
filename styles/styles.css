@@ -17,6 +17,19 @@ body {
   max-width: 1320px;
   margin: 0px auto;
 }
+
+.content-first-header {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.content-second-header {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
 /* Shared Styles End Here */
 
 /* Banner Section Styles Start From Here */
@@ -57,23 +70,9 @@ body {
   margin-bottom: 48px;
 }
 
-.discount h4 {
-  color: #f00;
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 16px;
-}
-
-.discount h2 {
-  color: #070211;
-  font-size: 48px;
-  font-weight: 700;
-  margin-bottom: 48px;
-}
-
 .discount .discount-img {
   max-width: 802.9px;
-  margin: 0 auto;
+  margin: 26px auto 0;
 }
 /* Discount Section End Here */
 
@@ -173,19 +172,9 @@ body {
 .coming-soon .left-column {
   max-width: 393px;
 }
-.coming-soon .left-column h3 {
-  color: #f00;
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 16px;
-}
 
 .coming-soon .left-column h1 {
-  color: #070211;
   font-family: Merriweather;
-  font-size: 48px;
-  font-weight: 900;
-  margin-bottom: 22px;
 }
 
 .coming-soon .middle-column {
@@ -216,3 +205,25 @@ body {
 }
 
 /* Coming Soon Section Styles End Here  */
+
+/* Portfolio Section Styles Start From Here */
+.portfolio {
+  margin-bottom: 120px;
+}
+.portfolio h1 {
+  font-family: Merriweather;
+}
+.portfolio p {
+  max-width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 48px;
+}
+.portfolio .img-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+/* Portfolio Section Styles Start End Here */
