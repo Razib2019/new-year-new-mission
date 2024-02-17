@@ -154,3 +154,65 @@ body {
   cursor: pointer;
 }
 /* Event Schedule Styles End Here  */
+
+/* Coming Soon Section Styles Start From Here  */
+.coming-soon {
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coming-soon p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.coming-soon .left-column {
+  max-width: 393px;
+}
+.coming-soon .left-column h3 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.coming-soon .left-column h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+
+.coming-soon .middle-column {
+  border-radius: 463px;
+  border: 15px solid #f00;
+}
+
+.coming-soon .middle-column img {
+  width: 364.844px;
+  height: 364.844px;
+  padding: 49.08px;
+}
+
+.coming-soon .right-column {
+  max-width: 276px;
+}
+.coming-soon .right-column h1 {
+  color: #f00;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.coming-soon .right-column img {
+  width: 140px;
+  height: 140px;
+  margin-top: 20px;
+}
+
+/* Coming Soon Section Styles End Here  */
