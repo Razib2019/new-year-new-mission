@@ -206,6 +206,54 @@ body {
 
 /* Coming Soon Section Styles End Here  */
 
+/* Holidays Section Styles Start From Here */
+.holidays {
+  text-align: center;
+  margin-bottom: 120px;
+}
+.holidays h3 {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.holidays h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.holidays .holiday-red {
+  color: #f00;
+}
+
+.holidays p {
+  max-width: 1068px;
+  margin: 28px auto 0;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 64px;
+}
+.holidays .img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  position: relative;
+}
+.discount2 {
+  position: absolute;
+  top: 300px;
+  right: 250px;
+}
+.girl {
+  width: 429px;
+  height: 433px;
+}
+/* Holidays Section Styles End Here */
+
 /* Portfolio Section Styles Start From Here */
 .portfolio {
   margin-bottom: 120px;
